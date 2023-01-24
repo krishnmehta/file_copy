@@ -49,18 +49,18 @@ public class CopyFile {
                     }
                     System.out.println("Success");
                 }else{
-                    int a;
+                    int w;
                     writeFile = new FileWriter(outputPath+"\\"+fileName.substring(0,fileName.indexOf("."))+" - Copy"+fileName.substring(fileName.indexOf("."),fileName.length()));
                     while((a=readFile.read())!=-1){
-                        writeFile.write(a);
+                        writeFile.write(w);
                     }
                     System.out.println("Success");
                 }
             }else{
-                int a;
+                int w;
                 writeFile = new FileWriter(outputPath+"\\"+fileName);
                 while((a=readFile.read())!=-1){
-                    writeFile.write(a);
+                    writeFile.write(w);
                 }
                 System.out.println("Success.");
             }
