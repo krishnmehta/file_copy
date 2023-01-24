@@ -1,4 +1,3 @@
-# file_copy
 # Challenge – File Copier
 
 Problem Solved using Java
