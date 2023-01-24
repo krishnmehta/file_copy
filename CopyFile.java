@@ -14,8 +14,6 @@ public class CopyFile {
         String fileName=sc.nextLine();
         fileCopy(inputPath, outputPath, fileName);
 
-
-
     }
     static void fileCopy(String inputPath,String outputPath,String fileName) throws FileNotFoundException, IOException
     {
@@ -70,6 +68,5 @@ public class CopyFile {
 
         readFile.close();
         writeFile.close();
-
     }
 }
